@@ -60,7 +60,7 @@ body {
   font-size:14px;
 }
 .site-branding img {
-    max-height: 60px;
+    max-height: 50px;
 }
 
 @media only screen and (min-width: 1200px){
@@ -264,8 +264,13 @@ a:focus {
 -----------------------------------------*/
 
 .navbar {
-  background:#151d2c;
-  padding: 1rem;
+  /* background:#151d2c; */
+  background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  padding: 0.9rem;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -524,9 +529,13 @@ End Testimonial CSS
 FAQ CSS
 =========================*/
 #faq {
-background: #f9f9f9; 
-padding-top: 8rem;
-padding-bottom: 8rem;
+/* background: #f9f9f9;  */
+	background-image: url(../images/bg-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
 }
 
 #faq .panel-group {
@@ -696,8 +705,15 @@ button#submit-button:hover {
 .site-footer {
   border-top: 1px solid #efebeb;
   padding: 3rem 0;
-  background: #151d2c;
+  /* background: #151d2c; */
+  background-image: url(../images/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
+
+
 
 .site-footer a {
   color: var(--p-color);
@@ -825,13 +841,25 @@ button#submit-button:hover {
 /* WHAT WE DO */
 
 #services{
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
+  background-image: url(../images/bg-image-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  padding: 80px 0px;
+}
+
+#abou {
+background: #242c3c;
   padding: 80px 0px;
 }
 
 #about {
-background: #242c3c;
-  padding: 80px 0px;
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 #about .section-heading ,#services .section-heading {
@@ -890,8 +918,7 @@ background: #242c3c;
 #facts {
   padding-bottom: 100px;
   padding-bottom: 20px;
-  
-  background: #242c3c;
+  /* background: #242c3c; */
 }
 
 #facts .fact-item {
@@ -982,9 +1009,17 @@ End Call To Action CSS
 Footer Top CSS
 =========================*/ 
 #footer-top {
-background: #151d2c;
-  padding: 40px 0 70px;
+/* background: #151d2c; */
+	background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 40px 0 70px;
 }
+
+
+
 #footer-top .single-widget, #contact .single-widget{
   margin-top:30px;
 }
